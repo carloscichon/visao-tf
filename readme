@@ -1,0 +1,12 @@
+Pra rodar:
+python3 videoClassfication.py
+ - O programa vai abrir a sua webcam e começar a classificar assim que achar um rosto (não pode estar de óculos kkkk).
+ - Se ele travar assim que ver seu rosto, é normal, ele já volta.
+
+Ps: Provavelmente vai precisar instalar várias bibliotecas de python que o código usa.
+
+O diretório haarscascades/ tem arquivos pro reconhecimento de face do OpenCV.
+O diretório scripts/ tem vários scripts que eu usei pra manipular as imagens do dataset;
+    - Não posso disponibilizar o dataset porque a licensa não permite :(
+
+affect_model_200.* são os modelos já treinados. Train.py é o que realiza o treinamento, mas precisaria do dataset.
